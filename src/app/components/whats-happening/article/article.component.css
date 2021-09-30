@@ -1,0 +1,11 @@
+img {
+  width: 68px;
+  height: 68px;
+  border-radius: 25%;
+}
+
+.flex{flex-wrap: wrap;}
+.flex div:first-child{flex-basis:calc(100% - 80px);}
+.flex div:first-child .article{margin-bottom:10px;}
+.flex .trending-with a {color: rgb(120, 86, 255);text-decoration:none;}
+.flex .trending-with a:hover{text-decoration:underline;}

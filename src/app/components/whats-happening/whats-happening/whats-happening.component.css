@@ -1,0 +1,72 @@
+.light-theme {
+  --background-color: rgb(245, 248, 250);
+  --background-color-hover: rgb(237, 240, 242);
+}
+.dark-theme {
+  --background-color: #192734;
+  --background-color-hover: rgb(32, 46, 58);
+}
+.wrapper {
+  margin: 40px auto;
+  width: 348px;
+  background-color: var(--background-color);
+  border-radius: 15px;
+}
+.whats-happening-title {
+  color: var(--primary-text-color);
+  padding: 13px;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.show-more-footer {
+  padding: 15px;
+  font-size: 15px;
+  color: var(--twitter-blue);
+  background-color: none;
+  border-radius: 0 0 15px 15px;
+  transition: background 0.2s;
+}
+.show-more-footer:hover {
+  cursor: pointer;
+  background-color: var(--background-color-hover);
+}
+:host ::ng-deep .container {
+  color: var(--primary-text-color);
+  padding: 10px 15px;
+  border-bottom: 1px solid var(--border-color);
+  transition: background 0.2s;
+}
+:host ::ng-deep .container:hover {
+  cursor: pointer;
+  background-color: var(--background-color-hover);
+}
+:host ::ng-deep .flex {
+  display: flex;
+  justify-content: space-between;
+}
+:host ::ng-deep .flex .trending-with{
+  display: block;
+  color: var(--secondary-text-color);
+  padding-right: 5px;
+  font-size: 13px;
+}
+:host ::ng-deep .head > * {
+  color: var(--secondary-text-color);
+  padding-right: 5px;
+  font-size: 13px;
+}
+
+:host ::ng-deep .article {
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 1em;
+
+}
+
+:host ::ng-deep .footer {
+  margin-top: 5px;
+  color: var(--secondary-text-color);
+  font-size: 13px;
+}

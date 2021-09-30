@@ -1,0 +1,10 @@
+<fa-icon [icon]="faTwitter" class="twitter-icon" [ngClass]="colorTheme"></fa-icon>
+<div *ngFor="let s of sideBarItems;index as i">
+  <div [ngClass]="['wrapper', colorTheme]">
+    <div class="container">
+      <mat-icon fontSet="material-icons-outlined">{{ s.iconName }}</mat-icon>
+      <div>{{ s.name }}</div>
+    </div>
+  </div>
+</div>
+<button>Tweet</button>

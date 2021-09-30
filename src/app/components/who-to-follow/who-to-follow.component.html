@@ -1,0 +1,36 @@
+<div [ngClass]="['wrapper', colorTheme]">
+  <div class="who-to-follow-title">
+    <div>Who to follow</div>
+  </div>
+
+  <div class="container">
+    <div class="flex">
+      <img src="{{ avatarImage }}" alt="" />
+      <div>
+        <span class="name">Microsoft Visual Studio</span>
+        <span class="username">@VisualStudio</span>
+      </div>
+      <div class="button-container">
+        <button>Follow</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flex">
+      <img src="{{ avatarImage2 }}" alt="" />
+      <div>
+        <span class="name">JavaScript</span>
+        <span class="username">@JavaScript</span>
+      </div>
+      <div class="button-container">
+        <button>Follow</button>
+      </div>
+    </div>
+    <div class="promoted">↗ Promoted</div>
+  </div>
+
+  <div class="show-more-footer">
+    <div>Show more</div>
+  </div>
+</div>

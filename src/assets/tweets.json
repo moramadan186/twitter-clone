@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Angular",
+        "userName": "angular",
+        "postAge": 4,
+        "profileImage": "./assets/images/angular.jpg",
+        "message": "dolore placeat quibusdam ea quo vitae magni quis enim qui quis quo nemo aut saepe quidem repellat excepturi ut quia sunt ut sequi eos ea sed quas"
+    },
+    {
+        "name": "React",
+        "userName": "reactjs",
+        "postAge": 6,
+        "profileImage": "./assets/images/react.png",
+        "message": "repudiandae veniam quaerat sunt sed alias aut fugiat sit autem sed est voluptatem omnis possimus esse voluptatibus quis est aut tenetur dolor neque"
+    },
+    {
+        "name": "GitHub",
+        "userName": "gitHub",
+        "postAge": 6,
+        "profileImage": "./assets/images/gitHub.jpg",
+        "message": "dignissimos aperiam dolorem qui eum facilis quibusdam animi sint suscipit qui sint possimus cum quaerat magni maiores excepturi ipsam ut commodi dolor voluptatum modi aut vitae."
+    },
+    {
+        "name": "npm",
+        "userName": "npmjs",
+        "postAge": 2,
+        "profileImage": "./assets/images/npm.jpg",
+        "message": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "name": "TypeScript",
+        "userName": "typescript",
+        "postAge": 3,
+        "profileImage": "./assets/images/typescript.jpg",
+        "message": "est rerum tempore vitae sequi sint nihil reprehenderit dolor."
+    },
+    {
+        "name": "Vercel",
+        "userName": "vercel",
+        "postAge": 6,
+        "profileImage": "./assets/images/vercel.jpg",
+        "message": "et iusto sed quo iure voluptatem occaecati omnis eligendi aut ad voluptatem doloribus vel accusantium quis pariatur molestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "name": "Chrome DevTools",
+        "userName": "ChromeDevTools",
+        "postAge": 5,
+        "profileImage": "./assets/images/ChromeDevTools.jpg",
+        "message": "ullam et saepe reiciendis voluptatem adipisci sit amet autem assumenda provident rerum culpa quis hic commodi."
+    },
+    {
+        "name": "vjeux",
+        "userName": "Vjeux",
+        "postAge": 6,
+        "profileImage": "./assets/images/vjeux.jpg",
+        "message": "ut aspernatur corporis harum nihil quis provident sequi mollitia nobis."
+    },
+    {
+        "name": "MongoDB",
+        "userName": "MongoDB",
+        "postAge": 8,
+        "profileImage": "./assets/images/MongoDB.jpg",
+        "message": "aut dicta possimus sint mollitia voluptas commodi quo doloremque iste corrupti reiciendis voluptatem eius rerum sit cumque quod eligendi laborum minima perferendis recusandae assumenda consectetur porro architecto ipsum ipsam."
+    },
+    {
+        "name": "React Native",
+        "userName": "reactnative",
+        "postAge": 6,
+        "profileImage": "./assets/images/reactnative.jpg",
+        "message": "fuga et accusamus dolorum perferendis illo voluptas non doloremque neque facere ad qui dolorum molestiae beatae sed aut voluptas totam sit illum."
+    },
+    {
+        "name": "GraphQL",
+        "userName": "GraphQL",
+        "postAge": 7,
+        "profileImage": "./assets/images/GraphQL.png",
+        "message": "veritatis unde neque eligendi quae quod architecto quo neque vitae est illo sit tempora doloremque fugit quod et et vel beatae sequi ullam sed tenetur perspiciatis"
+    }
+]

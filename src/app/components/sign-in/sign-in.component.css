@@ -1,0 +1,30 @@
+.login {
+    min-height: 100vh;
+}
+.bg-image {
+    background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+}
+.logo {margin-bottom: 4rem;}
+.login-heading h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+}
+@media screen and (max-width:768px){
+    .login-heading h1 {
+        font-size: 3.7rem;
+    }
+}

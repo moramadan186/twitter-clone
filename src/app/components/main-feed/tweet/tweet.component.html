@@ -1,0 +1,21 @@
+<div [ngClass]="['tweet-container', colorTheme]">
+  <img src="{{ tweet.profileImage }}" class="profile-image"/>
+  <div class="content-container">
+    <header>
+      <span class="name">{{ tweet.name }}</span>
+      <span>@{{ tweet.userName }}</span>
+      <span>·</span>
+      <span>{{ tweet.postAge }}h</span>
+      <mat-icon>more_horiz</mat-icon>
+    </header>
+    <main>
+      <div>{{ tweet.message }}</div>
+    </main>
+    <footer>
+      <fa-icon [icon]="faComment" class=""></fa-icon>
+      <fa-icon [icon]="faRetweet" class=""></fa-icon>
+      <fa-icon [icon]="faHeart" class=""></fa-icon>
+      <fa-icon [icon]="faExternalLinkAlt" class=""></fa-icon>
+    </footer>
+  </div>
+</div>
